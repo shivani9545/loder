@@ -1,0 +1,33 @@
+body{
+    
+   
+    background-color:rgb(41, 215, 250);
+}
+div{
+
+    position:absolute;
+    top: 300px;
+    right:670px;
+    text-align: center;
+    color:white;
+    border: 20px solid white;
+    border-top:20px solid rgb(18, 10, 17) ;
+    border-radius:50%;
+    height: 200px;
+    width:200px;
+    animation-name: spinanimate;
+    animation-duration:1s;
+    animation-timing-function:ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+
+}
+@keyframes spinanimate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
